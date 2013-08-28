@@ -1,0 +1,816 @@
+.flair {
+    font-size: x-small;
+    border-radius: 4px!important;
+    border-width: 0px 1px 1px 0px!important;
+    border-color: rgba(0,0,0,0.5);
+    background-color: #eee!important;
+    padding: 0px 6px!important;
+}
+.author:before {
+    content: "";
+    width: 1px;
+    height: 21px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.flair:before {
+    content: "";
+    width: 20px;
+    height: 21px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(http://c.thumbs.redditmedia.com/gWtkfPPaX_F-PgI8.png);
+    background-position: -150px -150px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.flair:active::before {
+    width: 150px;
+    height: 150px;
+    position: absolute!important;
+    display: inline-block;
+    z-index: 999!important;
+    vertical-align: top;
+    text-decoration: none;
+}
+.flair-Bestof2012:before { background-image: url(http://d.thumbs.redditmedia.com/C7PqRwbBZpciSIUW.png) }
+.flair-empty:before,
+.flair-Sellsword:before,
+.flair-Targaryen:before,
+.flair-Kingsguard:before,
+.flair-NightsWatch:before,
+.flair-WarriorsSons:before,
+.flair-PoorFellows:before,
+.flair-RykkerOfDuskendale:before,
+.flair-RosbyOfThatIlk:before,
+.flair-HayfordOfThatIlk:before,
+.flair-MasseyOfStonedance:before,
+.flair-StokeworthOfThatIlk:before,
+.flair-Chyttering:before,
+.flair-StauntonOfRooksNest:before { background-image: url(http://c.thumbs.redditmedia.com/gWtkfPPaX_F-PgI8.png) }
+.flair-BuckwellOfTheAntlers:before,
+.flair-Harte:before,
+.flair-Chelsted:before,
+.flair-Mallery:before,
+.flair-BruneOfTheDyreDen:before,
+.flair-Langward:before,
+.flair-Thorne:before,
+.flair-Manning:before,
+.flair-Hollard:before,
+.flair-Rollingford:before,
+.flair-Wendwater:before,
+.flair-Follard:before,
+.flair-Edgerton:before,
+.flair-Rambton:before,
+.flair-Cressey:before,
+.flair-Farring:before,
+.flair-BruneOfBrownhollow:before,
+.flair-HoggOfSowsHorn:before,
+.flair-Gaunt:before,
+.flair-Byrch:before,
+.flair-Blount:before { background-image: url(http://d.thumbs.redditmedia.com/5JJmF9t7YztCBQqu.png) }
+.flair-Pyle:before,
+.flair-Bywater:before,
+.flair-Cole:before,
+.flair-Cargyll:before,
+.flair-Blackfyre:before,
+.flair-DarklynOfDuskendale:before,
+.flair-empty:before,
+.flair-empty:before,
+.flair-empty:before,
+.flair-VelaryonOfDriftmark:before,
+.flair-CeltigarOfClawIsland:before,
+.flair-BarEmmonOfSharpPoint:before,
+.flair-SunglassOfSweetportSound:before,
+.flair-empty:before,
+.flair-empty:before,
+.flair-Lannister:before,
+.flair-CrakehallOfThatIlk:before,
+.flair-MarbrandOfAshemark:before,
+.flair-BraxOfHornvale:before,
+.flair-LyddenOfTheDeepDen:before,
+.flair-BanefortOfThatIlk:before { background-image: url(http://f.thumbs.redditmedia.com/XtejXuA9Dpz0Ebh_.png) }
+.flair-Plumm:before,
+.flair-FarmanOfFaircastle:before,
+.flair-LeffordOfTheGoldenTooth:before,
+.flair-SerrettOfSilverhill:before,
+.flair-KenningOfKayce:before,
+.flair-Jast:before,
+.flair-SwyftOfCornfield:before,
+.flair-EstrenOfWyndhall:before,
+.flair-Stackspear:before,
+.flair-PresterOfFeastfires:before,
+.flair-WesterlingOfTheCraig:before,
+.flair-Moreland:before,
+.flair-SarsfieldOfThatIlk:before,
+.flair-Payne:before,
+.flair-Garner:before,
+.flair-Hamell:before,
+.flair-Ferren:before,
+.flair-Drox:before,
+.flair-Yarwyck:before,
+.flair-Turnberry:before,
+.flair-Doggett:before { background-image: url(http://d.thumbs.redditmedia.com/swuoeiegMF-E1PXu.png) }
+.flair-Algood:before,
+.flair-Myatt:before,
+.flair-Falwell:before,
+.flair-Hawthorne:before,
+.flair-Lorch:before,
+.flair-GreenfieldOfThatIlk:before,
+.flair-Vikary:before,
+.flair-Ruttiger:before,
+.flair-Yew:before,
+.flair-Hetherspoon:before,
+.flair-Clegane:before,
+.flair-Broom:before,
+.flair-Bettley:before,
+.flair-Foote:before,
+.flair-Peckledon:before,
+.flair-Spicer:before,
+.flair-ReyneOfCastamere:before,
+.flair-TarbeckOfTarbeckHall:before,
+.flair-Parren:before,
+.flair-empty:before,
+.flair-empty:before { background-image: url(http://a.thumbs.redditmedia.com/AyA5GqEgbbmwLkPT.png) }
+.flair-empty:before,
+.flair-Arryn:before,
+.flair-RoyceOfRunestone:before,
+.flair-WaynwoodOfIronOaks:before,
+.flair-RedfortOfThatIlk:before,
+.flair-BelmoreOfStrongsong:before,
+.flair-HunterOfLongbowHall:before,
+.flair-GraftonOfGulltown:before,
+.flair-CorbrayOfHeartsHome:before,
+.flair-TempletonOfNinestars:before,
+.flair-MelcolmOfOldAnchor:before,
+.flair-HersyOfNewKeep:before,
+.flair-ColdwaterofColdwaterBurn:before,
+.flair-LynderlyOfSnakewood:before,
+.flair-ShettOfGullTower:before,
+.flair-TollettOfTheGreyGlen:before,
+.flair-WaxleyOfWickenden:before,
+.flair-Ruthermont:before,
+.flair-Hardyng:before,
+.flair-SunderlandOfThe3Sisters:before,
+.flair-LongthorpeOfLongSister:before { background-image: url(http://f.thumbs.redditmedia.com/mbCoHQZlGIfN33gS.png) }
+.flair-BorrellOfSweetSister:before,
+.flair-TorrentOfLittleSister:before,
+.flair-Moore:before,
+.flair-PryorOfPebble:before,
+.flair-Upcliff:before,
+.flair-EleshamOfThePaps:before,
+.flair-Donniger:before,
+.flair-Egen:before,
+.flair-Wydman:before,
+.flair-RoyceJuniorLine:before,
+.flair-BaelishOld:before,
+.flair-BaelishNew:before,
+.flair-empty:before,
+.flair-empty:before,
+.flair-empty:before,
+.flair-Tyrell:before,
+.flair-HightowerOfOldtown:before,
+.flair-RedwyneOfTheArbor:before,
+.flair-RowanOfGoldenGrove:before,
+.flair-OakheartOfOldOak:before,
+.flair-TarlyOfHornHill:before { background-image: url(http://f.thumbs.redditmedia.com/FVAOQ2chKZi3vmKq.png) }
+.flair-VyrwellOfDarkDell:before,
+.flair-FlorentOfBrightwater:before,
+.flair-Varner:before,
+.flair-BlackbarOfBandallon:before,
+.flair-FootlyOfTumbleton:before,
+.flair-ShermerOfSmithyton:before,
+.flair-BeesburyOfHoneyholt:before,
+.flair-MullendoreOfUplands:before,
+.flair-MerrywetherOfLongtable:before,
+.flair-CraneOfRedLake:before,
+.flair-AshfordOfThatIlk:before,
+.flair-FossowayOfCiderHall:before,
+.flair-FossowayOfNewBarrel:before,
+.flair-GracefordOfHolyHall:before,
+.flair-Risley:before,
+.flair-RoxtonOfTheRing:before,
+.flair-Oldflowers:before,
+.flair-BulwerOfBlackcrown:before,
+.flair-Orme:before,
+.flair-Pommingham:before,
+.flair-AppletonOfThatIlk:before { background-image: url(http://d.thumbs.redditmedia.com/s8VJyMSWvu-v31mu.png) }
+.flair-MeadowsOfGrassyVale:before,
+.flair-KidwellOfIvyHall:before,
+.flair-Hastwyck:before,
+.flair-CuyOfSunflowerHall:before,
+.flair-CaswellOfBitterbridge:before,
+.flair-CostayneOfTheThreeTowers:before,
+.flair-Butterwell:before,
+.flair-Graves:before,
+.flair-CordwaynerOfHammerhal:before,
+.flair-Cockshaw:before,
+.flair-Hutcheson:before,
+.flair-Lowther:before,
+.flair-Leygood:before,
+.flair-Middlebury:before,
+.flair-Sloane:before,
+.flair-Bridges:before,
+.flair-Dunn:before,
+.flair-Ambrose:before,
+.flair-PeakeOfStarpike:before,
+.flair-Ball:before,
+.flair-Willum:before { background-image: url(http://e.thumbs.redditmedia.com/8bYe1xKeNJeJDVKd.png) }
+.flair-Redding:before,
+.flair-SerryOfSouthshield:before,
+.flair-ChesterOfGreenshield:before,
+.flair-HewettOfOakenshield:before,
+.flair-GrimmOfGreyshield:before,
+.flair-WebberOfColdmoat:before,
+.flair-OsgreyOfStandfast:before,
+.flair-Lyberr:before,
+.flair-Inchfield:before,
+.flair-Yelshire:before,
+.flair-Westbrook:before,
+.flair-Wythers:before,
+.flair-Bushy:before,
+.flair-Uffering:before,
+.flair-Norridge:before,
+.flair-Hunt:before,
+.flair-Woodwright:before,
+.flair-Norcross:before,
+.flair-GardenerOfHighgarden:before,
+.flair-Rhysling:before,
+.flair-empty:before { background-image: url(http://c.thumbs.redditmedia.com/9LUNvRBHWGQTTB7D.png) }
+.flair-empty:before,
+.flair-Baratheon:before,
+.flair-CaronOfNightsong:before,
+.flair-SwannOfStonehelm:before,
+.flair-ConningtonOfGriffinsRoost:before,
+.flair-DondarrionOfBlackhaven:before,
+.flair-GrandisonOfGrandview:before,
+.flair-FellOfFelwood:before,
+.flair-StaedmonOfBroadArch:before,
+.flair-TarthOfEvenfallHall:before,
+.flair-CafferenOfFawnton:before,
+.flair-BucklerOfBronzegate:before,
+.flair-ErrolOfHaystackHall:before,
+.flair-EstermontOfGreenstone:before,
+.flair-PenroseOfParchments:before,
+.flair-Wensington:before,
+.flair-MorrigenOfCrowsNest:before,
+.flair-Lonmouth:before,
+.flair-WyldeOfRainHouse:before,
+.flair-TrantOfGallowsgrey:before,
+.flair-MertynsOfMistwood:before { background-image: url(http://c.thumbs.redditmedia.com/Md1JNAV8QN-S0pVD.png) }
+.flair-RogersOfAmberly:before,
+.flair-Horpe:before,
+.flair-SelmyOfHarvestHall:before,
+.flair-Gower:before,
+.flair-Tudbury:before,
+.flair-PeaseburyOfPoddingfield:before,
+.flair-Hasty:before,
+.flair-Musgood:before,
+.flair-Wagstaff:before,
+.flair-Swygert:before,
+.flair-Bolling:before,
+.flair-Herston:before,
+.flair-Kellington:before,
+.flair-Toyne:before,
+.flair-empty:before,
+.flair-Stark:before,
+.flair-ManderlyOfWhiteHarbor:before,
+.flair-BoltonOfTheDreadfort:before,
+.flair-KarstarkOfKarhold:before,
+.flair-UmberOfLastHearth:before,
+.flair-FlintOfWidowsWatch:before { background-image: url(http://d.thumbs.redditmedia.com/pdSbufDownbDnro9.png) }
+.flair-DustinOfBarrowton:before,
+.flair-RyswellOfTheRills:before,
+.flair-HornwoodOfThatIlk:before,
+.flair-LockeOfOldcastle:before,
+.flair-CerwynOfThatIlk:before,
+.flair-MormontOfBearIsland:before,
+.flair-FlintOfFlintsFinger:before,
+.flair-StoutOfGoldgrass:before,
+.flair-GloverOfDeepwoodMotte:before,
+.flair-Woolfield:before,
+.flair-TallhartOfTorrhensSquare:before,
+.flair-Wells:before,
+.flair-Marsh:before,
+.flair-ReedOfGreywaterWatch:before,
+.flair-Fenn:before,
+.flair-Whitehill:before,
+.flair-Condon:before,
+.flair-Ironsmith:before,
+.flair-Lake:before,
+.flair-Moss:before,
+.flair-Lightfoot:before { background-image: url(http://f.thumbs.redditmedia.com/tUPjbrLpTZRL0GPA.png) }
+.flair-Overton:before,
+.flair-Mollen:before,
+.flair-Slate:before,
+.flair-Waterman:before,
+.flair-Cassel:before,
+.flair-Poole:before,
+.flair-Burley:before,
+.flair-Harclay:before,
+.flair-Norrey:before,
+.flair-Liddle:before,
+.flair-Knott:before,
+.flair-Wull:before,
+.flair-MagnarOfKingshouse:before,
+.flair-CrowlOfDeepdown:before,
+.flair-empty:before,
+.flair-Tully:before,
+.flair-WhentOfHarrenhal:before,
+.flair-BrackenOfStoneHedge:before,
+.flair-BlackwoodOFRaventreeHall:before,
+.flair-VanceOfAtranta:before,
+.flair-VanceOfWayfarersRest:before { background-image: url(http://b.thumbs.redditmedia.com/vyFKZYG2kSU98B8s.png) }
+.flair-FreyOfTheCrossing:before,
+.flair-MootonOfMaidenpool:before,
+.flair-MallisterOfSeagard:before,
+.flair-PiperOfPinkmaiden:before,
+.flair-Vypren:before,
+.flair-Shawney:before,
+.flair-SmallwoodOfAcornHall:before,
+.flair-DarryOfThatIlk:before,
+.flair-Lychester:before,
+.flair-Goodbrook:before,
+.flair-RooteOfLordHarrowaysTwn:before,
+.flair-Keath:before,
+.flair-Terrick:before,
+.flair-Blanetree:before,
+.flair-Lolliston:before,
+.flair-Paege:before,
+.flair-CoxOfSaltpans:before,
+.flair-RygerOfWillowWood:before,
+.flair-Charlton:before,
+.flair-Erenford:before,
+.flair-Haigh:before { background-image: url(http://c.thumbs.redditmedia.com/4CQWaZkFFOF3Sboz.png) }
+.flair-Grell:before,
+.flair-Wode:before,
+.flair-Wayn:before,
+.flair-MuddOfOldstones:before,
+.flair-Teague:before,
+.flair-Fisher:before,
+.flair-Justman:before,
+.flair-HoareOfHarrenhall:before,
+.flair-QoherysOfHarrenhal:before,
+.flair-TowersOfHarrenhal:before,
+.flair-HarrowayOfHarrenhal:before,
+.flair-StrongOfHarrenhal:before,
+.flair-LothstonOfHarrenhal:before,
+.flair-ButterwellOfWhitewalls:before,
+.flair-empty:before,
+.flair-Greyjoy:before,
+.flair-HarlawOfTenTowers:before,
+.flair-GoodbrotherOfHammerhorn:before,
+.flair-OrkwoodOfOrkmont:before,
+.flair-DrummOfOldWyk:before,
+.flair-SaltcliffeOfThatIlk:before { background-image: url(http://f.thumbs.redditmedia.com/P_1D0Svk1SN70mM_.png) }
+.flair-BlacktydeOfThatIlk:before,
+.flair-WynchOfIronHolt:before,
+.flair-Volmark:before,
+.flair-Kenning:before,
+.flair-Myre:before,
+.flair-Sparr:before,
+.flair-Stonetree:before,
+.flair-MerlynOfPebbleton:before,
+.flair-Sunderly:before,
+.flair-BotleyOfLordsport:before,
+.flair-Tawney:before,
+.flair-Stonehouse:before,
+.flair-FarwyndOfSealskinPoint:before,
+.flair-GoodbrotherOfShatterstone:before,
+.flair-HarlawOfGreyGarden:before,
+.flair-HarlawOfGlimmering:before,
+.flair-HarlawyOfHarlawHall:before,
+.flair-HarlawOfHarridanHill:before,
+.flair-FarwyndOfLonelyLight:before,
+.flair-GreyironOfOrkmont:before,
+.flair-HoareOfOrkmont:before { background-image: url(http://a.thumbs.redditmedia.com/y48M72kWis6BjfBx.png) }
+.flair-empty:before,
+.flair-Martell:before,
+.flair-YronwoodOfThatIlk:before,
+.flair-DayneOfStarfall:before,
+.flair-BlackmontOfThatIlk:before,
+.flair-AllyrionOfGodsgrace:before,
+.flair-UllerOfHellholt:before,
+.flair-ManwoodyOfKingsgrave:before,
+.flair-TolandOfGhostHill:before,
+.flair-WylOfTheBoneway:before,
+.flair-QorgyleOfSandstone:before,
+.flair-GargalenOfSaltShore:before,
+.flair-FowlerOfSkyreach:before,
+.flair-JordayneOfTheTor:before,
+.flair-VaithOfRealDunes:before,
+.flair-DaltOfLemonwood:before,
+.flair-SantagarOfSpottswood:before { background-image: url(http://f.thumbs.redditmedia.com/M7yYT3mYjDFdEQm_.png) }
+.flair-SeaworthOfRainwood:before,
+.flair-BronnOfTheBlackwater:before,
+.flair-TheImp:before,
+.flair-Joffrey:before,
+.flair-StannisOfDragonstone:before,
+.flair-TheYoungWolf:before,
+.flair-TheBlackfish:before,
+.flair-RestoredBlackfyre:before,
+.flair-Bittersteel:before,
+.flair-Bloodraven:before,
+.flair-Maekar:before,
+.flair-AerionBrightflame:before,
+.flair-Fireball:before,
+.flair-EuronCrowsEye:before,
+.flair-Kettleblack:before,
+.flair-Slynt:before,
+.flair-TheRainbowGuard:before,
+.flair-TheKnightOfTheLaughingTree:before,
+.flair-ArlanOfPennytree:before,
+.flair-DuncanTheTall:before,
+.flair-TheBraveCompanions:before { background-image: url(http://f.thumbs.redditmedia.com/Uwn92rClTVYWpjVM.png) }
+.flair-empty:before { background-position: -0px -150px }
+.flair-Sellsword:before { background-position: -150px -150px }
+.flair-Targaryen:before { background-position: -300px -150px }
+.flair-Kingsguard:before { background-position: -450px -150px }
+.flair-NightsWatch:before { background-position: -600px -150px }
+.flair-WarriorsSons:before { background-position: -750px -150px }
+.flair-PoorFellows:before { background-position: -900px -150px }
+.flair-RykkerOfDuskendale:before { background-position: -0px -300px }
+.flair-RosbyOfThatIlk:before { background-position: -150px -300px }
+.flair-HayfordOfThatIlk:before { background-position: -300px -300px }
+.flair-MasseyOfStonedance:before { background-position: -450px -300px }
+.flair-StokeworthOfThatIlk:before { background-position: -600px -300px }
+.flair-Chyttering:before { background-position: -750px -300px }
+.flair-StauntonOfRooksNest:before { background-position: -900px -300px }
+.flair-BuckwellOfTheAntlers:before { background-position: -0px -0px }
+.flair-Harte:before { background-position: -150px -0px }
+.flair-Chelsted:before { background-position: -300px -0px }
+.flair-Mallery:before { background-position: -450px -0px }
+.flair-BruneOfTheDyreDen:before { background-position: -600px -0px }
+.flair-Langward:before { background-position: -750px -0px }
+.flair-Thorne:before { background-position: -900px -0px }
+.flair-Manning:before { background-position: -0px -150px }
+.flair-Hollard:before { background-position: -150px -150px }
+.flair-Rollingford:before { background-position: -300px -150px }
+.flair-Wendwater:before { background-position: -450px -150px }
+.flair-Follard:before { background-position: -600px -150px }
+.flair-Edgerton:before { background-position: -750px -150px }
+.flair-Rambton:before { background-position: -900px -150px }
+.flair-Cressey:before { background-position: -0px -300px }
+.flair-Farring:before { background-position: -150px -300px }
+.flair-BruneOfBrownhollow:before { background-position: -300px -300px }
+.flair-HoggOfSowsHorn:before { background-position: -450px -300px }
+.flair-Gaunt:before { background-position: -600px -300px }
+.flair-Byrch:before { background-position: -750px -300px }
+.flair-Blount:before { background-position: -900px -300px }
+.flair-Pyle:before { background-position: -0px -0px }
+.flair-Bywater:before { background-position: -150px -0px }
+.flair-Cole:before { background-position: -300px -0px }
+.flair-Cargyll:before { background-position: -450px -0px }
+.flair-Blackfyre:before { background-position: -600px -0px }
+.flair-DarklynOfDuskendale:before { background-position: -750px -0px }
+.flair-empty:before { background-position: -900px -0px }
+.flair-empty:before { background-position: -0px -150px }
+.flair-empty:before { background-position: -150px -150px }
+.flair-VelaryonOfDriftmark:before { background-position: -300px -150px }
+.flair-CeltigarOfClawIsland:before { background-position: -450px -150px }
+.flair-BarEmmonOfSharpPoint:before { background-position: -600px -150px }
+.flair-SunglassOfSweetportSound:before { background-position: -750px -150px }
+.flair-empty:before { background-position: -900px -150px }
+.flair-empty:before { background-position: -0px -300px }
+.flair-Lannister:before { background-position: -150px -300px }
+.flair-CrakehallOfThatIlk:before { background-position: -300px -300px }
+.flair-MarbrandOfAshemark:before { background-position: -450px -300px }
+.flair-BraxOfHornvale:before { background-position: -600px -300px }
+.flair-LyddenOfTheDeepDen:before { background-position: -750px -300px }
+.flair-BanefortOfThatIlk:before { background-position: -900px -300px }
+.flair-Plumm:before { background-position: -0px -0px }
+.flair-FarmanOfFaircastle:before { background-position: -150px -0px }
+.flair-LeffordOfTheGoldenTooth:before { background-position: -300px -0px }
+.flair-SerrettOfSilverhill:before { background-position: -450px -0px }
+.flair-KenningOfKayce:before { background-position: -600px -0px }
+.flair-Jast:before { background-position: -750px -0px }
+.flair-SwyftOfCornfield:before { background-position: -900px -0px }
+.flair-EstrenOfWyndhall:before { background-position: -0px -150px }
+.flair-Stackspear:before { background-position: -150px -150px }
+.flair-PresterOfFeastfires:before { background-position: -300px -150px }
+.flair-WesterlingOfTheCraig:before { background-position: -450px -150px }
+.flair-Moreland:before { background-position: -600px -150px }
+.flair-SarsfieldOfThatIlk:before { background-position: -750px -150px }
+.flair-Payne:before { background-position: -900px -150px }
+.flair-Garner:before { background-position: -0px -300px }
+.flair-Hamell:before { background-position: -150px -300px }
+.flair-Ferren:before { background-position: -300px -300px }
+.flair-Drox:before { background-position: -450px -300px }
+.flair-Yarwyck:before { background-position: -600px -300px }
+.flair-Turnberry:before { background-position: -750px -300px }
+.flair-Doggett:before { background-position: -900px -300px }
+.flair-Algood:before { background-position: -0px -0px }
+.flair-Myatt:before { background-position: -150px -0px }
+.flair-Falwell:before { background-position: -300px -0px }
+.flair-Hawthorne:before { background-position: -450px -0px }
+.flair-Lorch:before { background-position: -600px -0px }
+.flair-GreenfieldOfThatIlk:before { background-position: -750px -0px }
+.flair-Vikary:before { background-position: -900px -0px }
+.flair-Ruttiger:before { background-position: -0px -150px }
+.flair-Yew:before { background-position: -150px -150px }
+.flair-Hetherspoon:before { background-position: -300px -150px }
+.flair-Clegane:before { background-position: -450px -150px }
+.flair-Broom:before { background-position: -600px -150px }
+.flair-Bettley:before { background-position: -750px -150px }
+.flair-Foote:before { background-position: -900px -150px }
+.flair-Peckledon:before { background-position: -0px -300px }
+.flair-Spicer:before { background-position: -150px -300px }
+.flair-ReyneOfCastamere:before { background-position: -300px -300px }
+.flair-TarbeckOfTarbeckHall:before { background-position: -450px -300px }
+.flair-Parren:before { background-position: -600px -300px }
+.flair-empty:before { background-position: -750px -300px }
+.flair-empty:before { background-position: -900px -300px }
+.flair-empty:before { background-position: -0px -0px }
+.flair-Arryn:before { background-position: -150px -0px }
+.flair-RoyceOfRunestone:before { background-position: -300px -0px }
+.flair-WaynwoodOfIronOaks:before { background-position: -450px -0px }
+.flair-RedfortOfThatIlk:before { background-position: -600px -0px }
+.flair-BelmoreOfStrongsong:before { background-position: -750px -0px }
+.flair-HunterOfLongbowHall:before { background-position: -900px -0px }
+.flair-GraftonOfGulltown:before { background-position: -0px -150px }
+.flair-CorbrayOfHeartsHome:before { background-position: -150px -150px }
+.flair-TempletonOfNinestars:before { background-position: -300px -150px }
+.flair-MelcolmOfOldAnchor:before { background-position: -450px -150px }
+.flair-HersyOfNewKeep:before { background-position: -600px -150px }
+.flair-ColdwaterofColdwaterBurn:before { background-position: -750px -150px }
+.flair-LynderlyOfSnakewood:before { background-position: -900px -150px }
+.flair-ShettOfGullTower:before { background-position: -0px -300px }
+.flair-TollettOfTheGreyGlen:before { background-position: -150px -300px }
+.flair-WaxleyOfWickenden:before { background-position: -300px -300px }
+.flair-Ruthermont:before { background-position: -450px -300px }
+.flair-Hardyng:before { background-position: -600px -300px }
+.flair-SunderlandOfThe3Sisters:before { background-position: -750px -300px }
+.flair-LongthorpeOfLongSister:before { background-position: -900px -300px }
+.flair-BorrellOfSweetSister:before { background-position: -0px -0px }
+.flair-TorrentOfLittleSister:before { background-position: -150px -0px }
+.flair-Moore:before { background-position: -300px -0px }
+.flair-PryorOfPebble:before { background-position: -450px -0px }
+.flair-Upcliff:before { background-position: -600px -0px }
+.flair-EleshamOfThePaps:before { background-position: -750px -0px }
+.flair-Donniger:before { background-position: -900px -0px }
+.flair-Egen:before { background-position: -0px -150px }
+.flair-Wydman:before { background-position: -150px -150px }
+.flair-RoyceJuniorLine:before { background-position: -300px -150px }
+.flair-BaelishOld:before { background-position: -450px -150px }
+.flair-BaelishNew:before { background-position: -600px -150px }
+.flair-empty:before { background-position: -750px -150px }
+.flair-empty:before { background-position: -900px -150px }
+.flair-empty:before { background-position: -0px -300px }
+.flair-Tyrell:before { background-position: -150px -300px }
+.flair-HightowerOfOldtown:before { background-position: -300px -300px }
+.flair-RedwyneOfTheArbor:before { background-position: -450px -300px }
+.flair-RowanOfGoldenGrove:before { background-position: -600px -300px }
+.flair-OakheartOfOldOak:before { background-position: -750px -300px }
+.flair-TarlyOfHornHill:before { background-position: -900px -300px }
+.flair-VyrwellOfDarkDell:before { background-position: -0px -0px }
+.flair-FlorentOfBrightwater:before { background-position: -150px -0px }
+.flair-Varner:before { background-position: -300px -0px }
+.flair-BlackbarOfBandallon:before { background-position: -450px -0px }
+.flair-FootlyOfTumbleton:before { background-position: -600px -0px }
+.flair-ShermerOfSmithyton:before { background-position: -750px -0px }
+.flair-BeesburyOfHoneyholt:before { background-position: -900px -0px }
+.flair-MullendoreOfUplands:before { background-position: -0px -150px }
+.flair-MerrywetherOfLongtable:before { background-position: -150px -150px }
+.flair-CraneOfRedLake:before { background-position: -300px -150px }
+.flair-AshfordOfThatIlk:before { background-position: -450px -150px }
+.flair-FossowayOfCiderHall:before { background-position: -600px -150px }
+.flair-FossowayOfNewBarrel:before { background-position: -750px -150px }
+.flair-GracefordOfHolyHall:before { background-position: -900px -150px }
+.flair-Risley:before { background-position: -0px -300px }
+.flair-RoxtonOfTheRing:before { background-position: -150px -300px }
+.flair-Oldflowers:before { background-position: -300px -300px }
+.flair-BulwerOfBlackcrown:before { background-position: -450px -300px }
+.flair-Orme:before { background-position: -600px -300px }
+.flair-Pommingham:before { background-position: -750px -300px }
+.flair-AppletonOfThatIlk:before { background-position: -900px -300px }
+.flair-MeadowsOfGrassyVale:before { background-position: -0px -0px }
+.flair-KidwellOfIvyHall:before { background-position: -150px -0px }
+.flair-Hastwyck:before { background-position: -300px -0px }
+.flair-CuyOfSunflowerHall:before { background-position: -450px -0px }
+.flair-CaswellOfBitterbridge:before { background-position: -600px -0px }
+.flair-CostayneOfTheThreeTowers:before { background-position: -750px -0px }
+.flair-Butterwell:before { background-position: -900px -0px }
+.flair-Graves:before { background-position: -0px -150px }
+.flair-CordwaynerOfHammerhal:before { background-position: -150px -150px }
+.flair-Cockshaw:before { background-position: -300px -150px }
+.flair-Hutcheson:before { background-position: -450px -150px }
+.flair-Lowther:before { background-position: -600px -150px }
+.flair-Leygood:before { background-position: -750px -150px }
+.flair-Middlebury:before { background-position: -900px -150px }
+.flair-Sloane:before { background-position: -0px -300px }
+.flair-Bridges:before { background-position: -150px -300px }
+.flair-Dunn:before { background-position: -300px -300px }
+.flair-Ambrose:before { background-position: -450px -300px }
+.flair-PeakeOfStarpike:before { background-position: -600px -300px }
+.flair-Ball:before { background-position: -750px -300px }
+.flair-Willum:before { background-position: -900px -300px }
+.flair-Redding:before { background-position: -0px -0px }
+.flair-SerryOfSouthshield:before { background-position: -150px -0px }
+.flair-ChesterOfGreenshield:before { background-position: -300px -0px }
+.flair-HewettOfOakenshield:before { background-position: -450px -0px }
+.flair-GrimmOfGreyshield:before { background-position: -600px -0px }
+.flair-WebberOfColdmoat:before { background-position: -750px -0px }
+.flair-OsgreyOfStandfast:before { background-position: -900px -0px }
+.flair-Lyberr:before { background-position: -0px -150px }
+.flair-Inchfield:before { background-position: -150px -150px }
+.flair-Yelshire:before { background-position: -300px -150px }
+.flair-Westbrook:before { background-position: -450px -150px }
+.flair-Wythers:before { background-position: -600px -150px }
+.flair-Bushy:before { background-position: -750px -150px }
+.flair-Uffering:before { background-position: -900px -150px }
+.flair-Norridge:before { background-position: -0px -300px }
+.flair-Hunt:before { background-position: -150px -300px }
+.flair-Woodwright:before { background-position: -300px -300px }
+.flair-Norcross:before { background-position: -450px -300px }
+.flair-GardenerOfHighgarden:before { background-position: -600px -300px }
+.flair-Rhysling:before { background-position: -750px -300px }
+.flair-empty:before { background-position: -900px -300px }
+.flair-empty:before { background-position: -0px -0px }
+.flair-Baratheon:before { background-position: -150px -0px }
+.flair-CaronOfNightsong:before { background-position: -300px -0px }
+.flair-SwannOfStonehelm:before { background-position: -450px -0px }
+.flair-ConningtonOfGriffinsRoost:before { background-position: -600px -0px }
+.flair-DondarrionOfBlackhaven:before { background-position: -750px -0px }
+.flair-GrandisonOfGrandview:before { background-position: -900px -0px }
+.flair-FellOfFelwood:before { background-position: -0px -150px }
+.flair-StaedmonOfBroadArch:before { background-position: -150px -150px }
+.flair-TarthOfEvenfallHall:before { background-position: -300px -150px }
+.flair-CafferenOfFawnton:before { background-position: -450px -150px }
+.flair-BucklerOfBronzegate:before { background-position: -600px -150px }
+.flair-ErrolOfHaystackHall:before { background-position: -750px -150px }
+.flair-EstermontOfGreenstone:before { background-position: -900px -150px }
+.flair-PenroseOfParchments:before { background-position: -0px -300px }
+.flair-Wensington:before { background-position: -150px -300px }
+.flair-MorrigenOfCrowsNest:before { background-position: -300px -300px }
+.flair-Lonmouth:before { background-position: -450px -300px }
+.flair-WyldeOfRainHouse:before { background-position: -600px -300px }
+.flair-TrantOfGallowsgrey:before { background-position: -750px -300px }
+.flair-MertynsOfMistwood:before { background-position: -900px -300px }
+.flair-RogersOfAmberly:before { background-position: -0px -0px }
+.flair-Horpe:before { background-position: -150px -0px }
+.flair-SelmyOfHarvestHall:before { background-position: -300px -0px }
+.flair-Gower:before { background-position: -450px -0px }
+.flair-Tudbury:before { background-position: -600px -0px }
+.flair-PeaseburyOfPoddingfield:before { background-position: -750px -0px }
+.flair-Hasty:before { background-position: -900px -0px }
+.flair-Musgood:before { background-position: -0px -150px }
+.flair-Wagstaff:before { background-position: -150px -150px }
+.flair-Swygert:before { background-position: -300px -150px }
+.flair-Bolling:before { background-position: -450px -150px }
+.flair-Herston:before { background-position: -600px -150px }
+.flair-Kellington:before { background-position: -750px -150px }
+.flair-Toyne:before { background-position: -900px -150px }
+.flair-empty:before { background-position: -0px -300px }
+.flair-Stark:before { background-position: -150px -300px }
+.flair-ManderlyOfWhiteHarbor:before { background-position: -300px -300px }
+.flair-BoltonOfTheDreadfort:before { background-position: -450px -300px }
+.flair-KarstarkOfKarhold:before { background-position: -600px -300px }
+.flair-UmberOfLastHearth:before { background-position: -750px -300px }
+.flair-FlintOfWidowsWatch:before { background-position: -900px -300px }
+.flair-DustinOfBarrowton:before { background-position: -0px -0px }
+.flair-RyswellOfTheRills:before { background-position: -150px -0px }
+.flair-HornwoodOfThatIlk:before { background-position: -300px -0px }
+.flair-LockeOfOldcastle:before { background-position: -450px -0px }
+.flair-CerwynOfThatIlk:before { background-position: -600px -0px }
+.flair-MormontOfBearIsland:before { background-position: -750px -0px }
+.flair-FlintOfFlintsFinger:before { background-position: -900px -0px }
+.flair-StoutOfGoldgrass:before { background-position: -0px -150px }
+.flair-GloverOfDeepwoodMotte:before { background-position: -150px -150px }
+.flair-Woolfield:before { background-position: -300px -150px }
+.flair-TallhartOfTorrhensSquare:before { background-position: -450px -150px }
+.flair-Wells:before { background-position: -600px -150px }
+.flair-Marsh:before { background-position: -750px -150px }
+.flair-ReedOfGreywaterWatch:before { background-position: -900px -150px }
+.flair-Fenn:before { background-position: -0px -300px }
+.flair-Whitehill:before { background-position: -150px -300px }
+.flair-Condon:before { background-position: -300px -300px }
+.flair-Ironsmith:before { background-position: -450px -300px }
+.flair-Lake:before { background-position: -600px -300px }
+.flair-Moss:before { background-position: -750px -300px }
+.flair-Lightfoot:before { background-position: -900px -300px }
+.flair-Overton:before { background-position: -0px -0px }
+.flair-Mollen:before { background-position: -150px -0px }
+.flair-Slate:before { background-position: -300px -0px }
+.flair-Waterman:before { background-position: -450px -0px }
+.flair-Cassel:before { background-position: -600px -0px }
+.flair-Poole:before { background-position: -750px -0px }
+.flair-Burley:before { background-position: -900px -0px }
+.flair-Harclay:before { background-position: -0px -150px }
+.flair-Norrey:before { background-position: -150px -150px }
+.flair-Liddle:before { background-position: -300px -150px }
+.flair-Knott:before { background-position: -450px -150px }
+.flair-Wull:before { background-position: -600px -150px }
+.flair-MagnarOfKingshouse:before { background-position: -750px -150px }
+.flair-CrowlOfDeepdown:before { background-position: -900px -150px }
+.flair-empty:before { background-position: -0px -300px }
+.flair-Tully:before { background-position: -150px -300px }
+.flair-WhentOfHarrenhal:before { background-position: -300px -300px }
+.flair-BrackenOfStoneHedge:before { background-position: -450px -300px }
+.flair-BlackwoodOFRaventreeHall:before { background-position: -600px -300px }
+.flair-VanceOfAtranta:before { background-position: -750px -300px }
+.flair-VanceOfWayfarersRest:before { background-position: -900px -300px }
+.flair-FreyOfTheCrossing:before { background-position: -0px -0px }
+.flair-MootonOfMaidenpool:before { background-position: -150px -0px }
+.flair-MallisterOfSeagard:before { background-position: -300px -0px }
+.flair-PiperOfPinkmaiden:before { background-position: -450px -0px }
+.flair-Vypren:before { background-position: -600px -0px }
+.flair-Shawney:before { background-position: -750px -0px }
+.flair-SmallwoodOfAcornHall:before { background-position: -900px -0px }
+.flair-DarryOfThatIlk:before { background-position: -0px -150px }
+.flair-Lychester:before { background-position: -150px -150px }
+.flair-Goodbrook:before { background-position: -300px -150px }
+.flair-RooteOfLordHarrowaysTwn:before { background-position: -450px -150px }
+.flair-Keath:before { background-position: -600px -150px }
+.flair-Terrick:before { background-position: -750px -150px }
+.flair-Blanetree:before { background-position: -900px -150px }
+.flair-Lolliston:before { background-position: -0px -300px }
+.flair-Paege:before { background-position: -150px -300px }
+.flair-CoxOfSaltpans:before { background-position: -300px -300px }
+.flair-RygerOfWillowWood:before { background-position: -450px -300px }
+.flair-Charlton:before { background-position: -600px -300px }
+.flair-Erenford:before { background-position: -750px -300px }
+.flair-Haigh:before { background-position: -900px -300px }
+.flair-Grell:before { background-position: -0px -0px }
+.flair-Wode:before { background-position: -150px -0px }
+.flair-Wayn:before { background-position: -300px -0px }
+.flair-MuddOfOldstones:before { background-position: -450px -0px }
+.flair-Teague:before { background-position: -600px -0px }
+.flair-Fisher:before { background-position: -750px -0px }
+.flair-Justman:before { background-position: -900px -0px }
+.flair-HoareOfHarrenhall:before { background-position: -0px -150px }
+.flair-QoherysOfHarrenhal:before { background-position: -150px -150px }
+.flair-TowersOfHarrenhal:before { background-position: -300px -150px }
+.flair-HarrowayOfHarrenhal:before { background-position: -450px -150px }
+.flair-StrongOfHarrenhal:before { background-position: -600px -150px }
+.flair-LothstonOfHarrenhal:before { background-position: -750px -150px }
+.flair-ButterwellOfWhitewalls:before { background-position: -900px -150px }
+.flair-empty:before { background-position: -0px -300px }
+.flair-Greyjoy:before { background-position: -150px -300px }
+.flair-HarlawOfTenTowers:before { background-position: -300px -300px }
+.flair-GoodbrotherOfHammerhorn:before { background-position: -450px -300px }
+.flair-OrkwoodOfOrkmont:before { background-position: -600px -300px }
+.flair-DrummOfOldWyk:before { background-position: -750px -300px }
+.flair-SaltcliffeOfThatIlk:before { background-position: -900px -300px }
+.flair-BlacktydeOfThatIlk:before { background-position: -0px -0px }
+.flair-WynchOfIronHolt:before { background-position: -150px -0px }
+.flair-Volmark:before { background-position: -300px -0px }
+.flair-Kenning:before { background-position: -450px -0px }
+.flair-Myre:before { background-position: -600px -0px }
+.flair-Sparr:before { background-position: -750px -0px }
+.flair-Stonetree:before { background-position: -900px -0px }
+.flair-MerlynOfPebbleton:before { background-position: -0px -150px }
+.flair-Sunderly:before { background-position: -150px -150px }
+.flair-BotleyOfLordsport:before { background-position: -300px -150px }
+.flair-Tawney:before { background-position: -450px -150px }
+.flair-Stonehouse:before { background-position: -600px -150px }
+.flair-FarwyndOfSealskinPoint:before { background-position: -750px -150px }
+.flair-GoodbrotherOfShatterstone:before { background-position: -900px -150px }
+.flair-HarlawOfGreyGarden:before { background-position: -0px -300px }
+.flair-HarlawOfGlimmering:before { background-position: -150px -300px }
+.flair-HarlawyOfHarlawHall:before { background-position: -300px -300px }
+.flair-HarlawOfHarridanHill:before { background-position: -450px -300px }
+.flair-FarwyndOfLonelyLight:before { background-position: -600px -300px }
+.flair-GreyironOfOrkmont:before { background-position: -750px -300px }
+.flair-HoareOfOrkmont:before { background-position: -900px -300px }
+.flair-empty:before { background-position: -0px -0px }
+.flair-Martell:before { background-position: -150px -0px }
+.flair-YronwoodOfThatIlk:before { background-position: -300px -0px }
+.flair-DayneOfStarfall:before { background-position: -450px -0px }
+.flair-BlackmontOfThatIlk:before { background-position: -600px -0px }
+.flair-AllyrionOfGodsgrace:before { background-position: -750px -0px }
+.flair-UllerOfHellholt:before { background-position: -900px -0px }
+.flair-ManwoodyOfKingsgrave:before { background-position: -0px -150px }
+.flair-TolandOfGhostHill:before { background-position: -150px -150px }
+.flair-WylOfTheBoneway:before { background-position: -300px -150px }
+.flair-QorgyleOfSandstone:before { background-position: -450px -150px }
+.flair-GargalenOfSaltShore:before { background-position: -600px -150px }
+.flair-FowlerOfSkyreach:before { background-position: -750px -150px }
+.flair-JordayneOfTheTor:before { background-position: -900px -150px }
+.flair-VaithOfRealDunes:before { background-position: -0px -300px }
+.flair-DaltOfLemonwood:before { background-position: -150px -300px }
+.flair-SantagarOfSpottswood:before { background-position: -300px -300px }
+.flair-SeaworthOfRainwood:before { background-position: -0px -0px }
+.flair-BronnOfTheBlackwater:before { background-position: -150px -0px }
+.flair-TheImp:before { background-position: -300px -0px }
+.flair-Joffrey:before { background-position: -450px -0px }
+.flair-StannisOfDragonstone:before { background-position: -600px -0px }
+.flair-TheYoungWolf:before { background-position: -750px -0px }
+.flair-TheBlackfish:before { background-position: -900px -0px }
+.flair-RestoredBlackfyre:before { background-position: -0px -150px }
+.flair-Bittersteel:before { background-position: -150px -150px }
+.flair-Bloodraven:before { background-position: -300px -150px }
+.flair-Maekar:before { background-position: -450px -150px }
+.flair-AerionBrightflame:before { background-position: -600px -150px }
+.flair-Fireball:before { background-position: -750px -150px }
+.flair-EuronCrowsEye:before { background-position: -900px -150px }
+.flair-Kettleblack:before { background-position: -0px -300px }
+.flair-Slynt:before { background-position: -150px -300px }
+.flair-TheRainbowGuard:before { background-position: -300px -300px }
+.flair-TheKnightOfTheLaughingTree:before { background-position: -450px -300px }
+.flair-ArlanOfPennytree:before { background-position: -600px -300px }
+.flair-DuncanTheTall:before { background-position: -750px -300px }
+.flair-TheBraveCompanions:before { background-position: -900px -300px }
+.flair-Bestof2012:before { background-position: -0px -0px }

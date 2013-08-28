@@ -1,0 +1,14 @@
+{
+"name": "ASOIAF shields",
+"version": "1.0",
+"manifest_version": 2,
+"content_scripts": [
+	{
+		"matches": ["http://www.reddit.com/r/asoiaf/*", "https://www.reddit.com/r/asoiaf/*"],
+		"css": ["shields.css"]
+	}
+],
+"web_accessible_resources": [
+  "shields.css"
+]
+}
