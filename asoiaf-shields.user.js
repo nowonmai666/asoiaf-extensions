@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name			asoiaf shields
-// @version			2.0
-// @description		Makes user flairs visible on /r/asoiaf. 
+// @name asoiaf shields
+// @version 1.0
+// @description Makes user flairs visible on /r/asoiaf. 
 // @namespace      http://nowonmai666.github.io/asoiaf-extensions/
 // @match        http://www.reddit.com/r/asoiaf/*
 // ==/UserScript==
