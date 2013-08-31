@@ -5,38 +5,11 @@
  *
  * by /u/nowonmai666
  *
+ * http://nowonmai666.github.com/asoiaf-extensions
+ * 
  * ================================ */
 
-/* Old Spoiler code */
-a[href$="/spoiler"] {
-    background: #CCCCCC !important;
-    color: #000000 !important
-    }
-a[href$="/spoiler"]:hover {
-    color: #000000 !important;
-    text-decoration:none!important;
-    }
-/* New Spoiler Code */
-
-a[href="/s"], a[href="/s"]:hover {
-    color: rgba(255,0,0,0.6) !important;
-    background: #eee !important;
-    background-image: none !important;
-    background-repeat: no-repeat;
-    padding: 0px 0px 0px 0px !important;
-    cursor: text;
-    width: 0;
-    text-decoration:none!important;
-    }
-
-a[href="/s"]::after, a[href="/s"]:hover::after, a[href="/s"]:active::after {
-    content: attr(title);
-    background: #eee !important;
-    background-image: none !important;
-    color: #990000 !important;
-    text-decoration:none!important;
-    padding: 0px 3px 0px 5px!important;
-    }
+/* Fixes are for v3.0 of /r/asoiaf stylesheet */
 
 /* Clean white background */
 
