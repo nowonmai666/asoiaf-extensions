@@ -111,6 +111,9 @@
     margin: 5px 0px!important;
     font-size: 150%!important
 }
+.menuarea .dropdown.lightdrop .selected {
+    background-image: url(http://www.redditstatic.com/droparrowgray.gif)!important;
+    }
 
 /* Here buttons, have a font! */
 
