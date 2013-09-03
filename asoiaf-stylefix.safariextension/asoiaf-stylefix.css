@@ -164,20 +164,31 @@ button { font-family:Verdana,Arial,sans-serif;}
 
 /* ========= SIDEBAR ========== */
 
-/* Rein in that crazy Submit button */
+/* Rein in that crazy Submit button 
+<div class="sidebox submit submit-text">
+<div class="morelink">
+
+
+*/
 .titlebox .redditname { display:none; }
 .morelink {
     position: relative!important;
     right: 0px!important;
+    z-index: 9999!important;
     top: -91px!important;
 }
-/* submit button has to be displaced further on comments page */
-.comments-page .morelink {
-	top: -188px!important;
-}
+
+.comments-page .morelink { top: -188px!important }
+.listing-page:not(.loggedin) .morelink { top: -173px!important; }
+.comments-page:not(.loggedin) .morelink { top: -270px!important; }
+
 .submit-text { height: 0px!important; }
 
-.titlebox > div:first-of-type {
+/* tidy up; try to make it work boith with and without RES which injects additional <divs> */
+
+/* "use subreddit style" control uses bullshit inline styles instead of */
+
+.titlebox > div:first-of-type:not(.tagline) {
 	margin: -10px 0 10px !important;
 }
 
@@ -185,7 +196,7 @@ button { font-family:Verdana,Arial,sans-serif;}
 	margin-bottom: 10px!important;
 }
 
-.titlebox > div:nth-of-type(3) {
+.titlebox .tagline {
 	margin: 10px 0px!important;
 }
 

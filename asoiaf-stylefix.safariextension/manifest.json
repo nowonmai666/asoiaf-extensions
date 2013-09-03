@@ -1,0 +1,15 @@
+{
+"name": "ASOIAF stylefix",
+"version": "2.0",
+"manifest_version": 2,
+"content_scripts": [
+	{
+		"matches": ["http://www.reddit.com/r/asoiaf/*", "https://www.reddit.com/r/asoiaf/*"],
+		"css": ["asoiaf-stylefix.css","chrome-specific.css"]
+	}
+],
+"web_accessible_resources": [
+  "asoiaf-stylefix.css",
+  "chrome-specific.css"
+]
+}

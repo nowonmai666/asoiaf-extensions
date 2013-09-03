@@ -1,0 +1,2 @@
+.comments-page .morelink { top: -187px!important }
+.comments-page:not(.loggedin) .morelink { top: -269px!important; }
