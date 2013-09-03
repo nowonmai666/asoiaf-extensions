@@ -4,6 +4,7 @@
 *.taskpaper
 resources/*
 *.min.css
+index.html
 
 
 #Built products that go in releases
