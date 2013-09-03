@@ -3,7 +3,7 @@
 *.crx
 *.taskpaper
 resources/*
-*.min.css
+*.min.js
 index.html
 
 
