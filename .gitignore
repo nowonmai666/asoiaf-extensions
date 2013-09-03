@@ -4,6 +4,7 @@
 *.taskpaper
 resources/*
 *.min.js
+*.min.css
 index.html
 
 
