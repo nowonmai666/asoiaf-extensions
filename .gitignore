@@ -1,0 +1,8 @@
+# f0r gh-pages
+*.js
+*.zip
+*.pem
+*.crx
+*.taskpaper
+*.safariextz
+resources/*
