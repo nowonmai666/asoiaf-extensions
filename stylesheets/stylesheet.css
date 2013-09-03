@@ -435,6 +435,12 @@ Custom Styles
 	background: #F8FE2F;
 }
 
+.info {
+	background-color: rgba(0,255,0,0.4);
+	padding: 20px;
+	border-radius: 10px;
+}
+
 .warning {
 	background-color: rgba(255,0,0,0.4);
 	padding: 20px;
