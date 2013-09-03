@@ -1,6 +1,13 @@
+#Gitignore for branch Master
 *.pem
 *.crx
-*.safariextz
-*.user.js
 *.taskpaper
 resources/*
+*.min.css
+
+
+#Built products that go in releases
+
+*.zip
+*.safariextz
+*.user.js
